@@ -1,0 +1,14 @@
+build/*
+sui.log*
+node_modules/*
+*/node_modules/*
+/dist/*
+package-lock.json
+*/package-lock.json
+.DS_Store
+rust_scripts/target/*
+*/Cargo.lock
+rust_scripts/target
+Move.lock
+clmm-vault/build/*
+strats-receipt/build/*

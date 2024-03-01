@@ -1,0 +1,9 @@
+[package]
+name = "StratsReceipt"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet", override = true }
+
+[addresses]
+strats_receipt = "0x0"

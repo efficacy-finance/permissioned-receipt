@@ -1,0 +1,23 @@
+{
+    "name": "kriya-strats-receipt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "publish": "npx ts-node --esm scripts/publish.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@cetusprotocol/cetus-sui-clmm-sdk": "^3.17.8",
+        "@mysten/sui.js": "^0.50.0",
+        "bip39-light": "^1.0.7",
+        "dotenv": "^16.0.3",
+        "node-fetch": "^3.3.1",
+        "tweetnacl": "^1.0.3"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    }
+}
