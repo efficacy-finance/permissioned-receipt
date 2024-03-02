@@ -12,7 +12,7 @@ const sourcesPath = path.join(__dirname, "../../pricer/sources/pricer");
 const deploy = async (signer: Ed25519Keypair) => {
     const signerAddress = signer.toSuiAddress();
     const compiledModulesAndDependencies = JSON.parse(
-        execSync("cd ./strats-receipt | sui move build --dump-bytecode-as-base64", {
+        execSync("cd ./strats-receipt && sui move build --dump-bytecode-as-base64", {
             encoding: "utf-8",
         })
     );
