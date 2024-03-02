@@ -18,6 +18,7 @@ module strats_receipt::receipt {
         }
     }
 
+    // todo: should be based on ACLs
     public fun add_data<K: copy + drop + store, V: store>(self: &mut StratsReceipt, k: K, v: V) {
         bag::add<K, V>(&mut self.data, k, v);
     }

@@ -22,7 +22,7 @@ export class Constants {
 }
 
 export class RPC {
-    public static readonly is_mainnet = false;
+    public static readonly is_mainnet = true;
 
     /// PRIVATE VARIABLES
     private static readonly shinami_testnet =
