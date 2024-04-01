@@ -12,3 +12,4 @@ rust_scripts/target
 Move.lock
 clmm-vault/build/*
 strats-receipt/build/*
+permissioned-receipt/build/*

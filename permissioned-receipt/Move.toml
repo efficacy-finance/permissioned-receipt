@@ -1,10 +1,10 @@
 [package]
-name = "StratsReceipt"
+name = "PermissionedReceipt"
 version = "0.0.1"
-published-at = "0xfdbd3d8dac427ef4fdbfb83553c5ac1f0f82f0ce01add04b738dcea7da6bd52a"
+published-at = "0xfe579a58d32d38e154a8c0d4aa646238851f340258d10c7482cef9bea165b823"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet", override = true }
 
 [addresses]
-strats_receipt = "0xfdbd3d8dac427ef4fdbfb83553c5ac1f0f82f0ce01add04b738dcea7da6bd52a"
+permissioned_receipt = "0xfe579a58d32d38e154a8c0d4aa646238851f340258d10c7482cef9bea165b823"
